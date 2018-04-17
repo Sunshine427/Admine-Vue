@@ -1,0 +1,25 @@
+<div class="login">
+  <div class="container">
+    <h4>用户登录系统</h4>
+    <el-form status-icon ref="ruleForm2" label-width="100px" class="demo-ruleForm user-login">
+      <el-form-item label="用户名" prop="pass">
+        <el-input
+          type="name"
+          auto-complete="off"
+          v-model="userForm.username"></el-input>
+      </el-form-item>
+      <el-form-item label="密码" prop="checkPass">
+        <el-input
+          type="password"
+          auto-complete="off"
+          v-model="userForm.password"></el-input>
+      </el-form-item>
+      <el-form-item>
+        <el-button
+          type="primary"
+          class='login-btn'
+          @click="login">登录</el-button>
+      </el-form-item>
+    </el-form>
+  </div>
+</div>

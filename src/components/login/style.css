@@ -1,0 +1,22 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #324152;
+  height: 100%;
+}
+.user-login{
+  width: 368px;
+}
+.login-btn{
+  width: 100%;
+}
+.container{
+  width: 400px;
+  background-color: #fff;
+  height: 330px;
+  padding-right: 20px;
+}
+h4{
+  text-align: center;
+}
